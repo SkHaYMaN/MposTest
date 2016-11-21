@@ -1,5 +1,5 @@
 PODS:
-  - MposTest (0.1.0)
+  - MposTest (0.2.0)
 
 DEPENDENCIES:
   - MposTest (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MposTest: 1ac03921b74e01b376b8b6f5145ecb711293a6be
+  MposTest: 4b3fee1972d1aea4dcb96e1d34ef67c9657d3c67
 
 PODFILE CHECKSUM: 6a21668b9955fec108e75c7837c7825916fcc4aa
 

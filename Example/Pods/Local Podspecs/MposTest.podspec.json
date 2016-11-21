@@ -1,6 +1,6 @@
 {
   "name": "MposTest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "blablabla.",
   "description": "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.",
   "homepage": "https://github.com/SkHaYMaN/MposTest",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SkHaYMaN/MposTest.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

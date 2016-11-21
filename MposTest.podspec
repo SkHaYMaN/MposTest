@@ -26,6 +26,7 @@ This CocoaPod provides the ability to use a UILabel that may be started and stop
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MposTest' => 'alexandre.soler@lyra-network.com' }
   s.source           = { :git => 'https://github.com/SkHaYMaN/MposTest.git', :tag => s.version.to_s }
+  # s.source           = { :git => 'https://github.com/SkHaYMaN/MposTest.git', :commit => "ba5041724384ad5ce19297462242598e1288eb36" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
