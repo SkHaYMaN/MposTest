@@ -1,0 +1,16 @@
+PODS:
+  - MposTest (0.1.0)
+
+DEPENDENCIES:
+  - MposTest (from `../`)
+
+EXTERNAL SOURCES:
+  MposTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MposTest: 0891619ae98cbd111b9e2a01dcf6c268e01d58b7
+
+PODFILE CHECKSUM: 6a21668b9955fec108e75c7837c7825916fcc4aa
+
+COCOAPODS: 1.1.1
