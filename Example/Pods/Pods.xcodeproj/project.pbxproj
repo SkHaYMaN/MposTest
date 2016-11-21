@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		319B00B51DE36028004B94C3 /* MposTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 319B00B41DE36028004B94C3 /* MposTest2.m */; };
 		56C0CC0845A30E309B818EA1F681B7DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5DEF88BEE5E72D12029CE63FC40D9C10 /* MposTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4B738525472C66D4B2336323406CF /* MposTest-dummy.m */; };
 		6165A4A08F8660CBEE66207A4983207A /* MposTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C34861CF6AE5FE80A40A1F22CAAFB5BE /* MposTest.m */; };
@@ -36,8 +37,10 @@
 		1ACF311D009C0D3BD7B5A5417E1A342F /* Pods-MposTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MposTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1CF304E2854C275085B129F514C1498F /* Pods-MposTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MposTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F241FD2D206B2854A5D243425E4FC74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3119931E618F718E4139BF6E4B7C0E62 /* MposTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MposTest.modulemap; sourceTree = "<group>"; };
+		3119931E618F718E4139BF6E4B7C0E62 /* MposTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MposTest.modulemap; sourceTree = "<group>"; };
 		3157BF50CF1D68B84C5E7C21DF56DED9 /* Pods-MposTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MposTest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		319B00B31DE3600A004B94C3 /* MposTest2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MposTest2.h; sourceTree = "<group>"; };
+		319B00B41DE36028004B94C3 /* MposTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MposTest2.m; sourceTree = "<group>"; };
 		32CF05DD79C62A6332F8CA8D919E49C8 /* Pods-MposTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MposTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		33E292ABBAF4E7BDBC2524D289296BF9 /* Pods-MposTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MposTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		367508CE19312F36C9D502090D65F487 /* Pods-MposTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MposTest_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -45,15 +48,15 @@
 		4E1A4A28D7380FB19D83BFD04353AC21 /* MposTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MposTest-prefix.pch"; sourceTree = "<group>"; };
 		6258C506F35E91F7CAD39AC7798C6E88 /* MposTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MposTest-umbrella.h"; sourceTree = "<group>"; };
 		75639089593AE245BEF50E386383501F /* MposTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MposTest.xcconfig; sourceTree = "<group>"; };
-		7AF89FD7C32258C1452138C2EF796A8C /* Pods_MposTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MposTest_Tests.framework; path = "Pods-MposTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF89FD7C32258C1452138C2EF796A8C /* Pods_MposTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MposTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C77E03396D901DC5CC9B4D1EB6A4E00 /* Pods-MposTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MposTest_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9802B134FB4F115D7B62A86B44ED8827 /* Pods-MposTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MposTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		9AF4B738525472C66D4B2336323406CF /* MposTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MposTest-dummy.m"; sourceTree = "<group>"; };
-		A47C3073BAF422CA79ECD1D95B44F01B /* Pods-MposTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MposTest_Tests.modulemap"; sourceTree = "<group>"; };
-		B4D15D47FC85C8A9D901FE03CBB3F0C1 /* MposTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MposTest.framework; path = MposTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47C3073BAF422CA79ECD1D95B44F01B /* Pods-MposTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MposTest_Tests.modulemap"; sourceTree = "<group>"; };
+		B4D15D47FC85C8A9D901FE03CBB3F0C1 /* MposTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MposTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34861CF6AE5FE80A40A1F22CAAFB5BE /* MposTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MposTest.m; sourceTree = "<group>"; };
-		C62D007C779DDC84182C296FA4641622 /* Pods-MposTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MposTest_Example.modulemap"; sourceTree = "<group>"; };
+		C62D007C779DDC84182C296FA4641622 /* Pods-MposTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MposTest_Example.modulemap"; sourceTree = "<group>"; };
 		CA4E16E0CFDB63746AF9453A6B93B8D0 /* Pods-MposTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MposTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CBF1046336BA2DDC224AEEAE32E1EB20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +65,7 @@
 		D8C1348942E0F4B87D46EC160E991BFB /* Pods-MposTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MposTest_Example-dummy.m"; sourceTree = "<group>"; };
 		E040472EDB9C481D4F379E01381DFA58 /* Pods-MposTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MposTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E14F115BBDA8375DFAB538E57475C168 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA43D8DA5E3FB6E27A18E9A37F9F774F /* Pods_MposTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MposTest_Example.framework; path = "Pods-MposTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA43D8DA5E3FB6E27A18E9A37F9F774F /* Pods_MposTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MposTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F827D9982F01D3AA7F09EB170BD17E4B /* Pods-MposTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MposTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +111,6 @@
 			children = (
 				DDF18A80F77AA88D514E26AABA752875 /* Classes */,
 			);
-			name = MposTest;
 			path = MposTest;
 			sourceTree = "<group>";
 		};
@@ -212,8 +214,9 @@
 			children = (
 				138E93E264818E155629873B1C9501C5 /* MposTest.h */,
 				C34861CF6AE5FE80A40A1F22CAAFB5BE /* MposTest.m */,
+				319B00B31DE3600A004B94C3 /* MposTest2.h */,
+				319B00B41DE36028004B94C3 /* MposTest2.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -361,6 +364,7 @@
 			files = (
 				5DEF88BEE5E72D12029CE63FC40D9C10 /* MposTest-dummy.m in Sources */,
 				6165A4A08F8660CBEE66207A4983207A /* MposTest.m in Sources */,
+				319B00B51DE36028004B94C3 /* MposTest2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
