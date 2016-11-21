@@ -1,9 +1,9 @@
 {
   "name": "MposTest",
   "version": "0.1.0",
-  "summary": "A short description of MposTest.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MposTest",
+  "summary": "blablabla.",
+  "description": "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.",
+  "homepage": "https://github.com/SkHaYMaN/MposTest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "MposTest": "alexandre.soler@lyra-network.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MposTest.git",
+    "git": "https://github.com/SkHaYMaN/MposTest.git",
     "tag": "0.1.0"
   },
   "platforms": {

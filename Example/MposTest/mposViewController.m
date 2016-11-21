@@ -7,6 +7,8 @@
 //
 
 #import "mposViewController.h"
+#import "MposTest.h"
+
 
 @interface mposViewController ()
 
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    MposTest *mposTest = [MposTest alloc];
+    [mposTest initBlabla];
 }
 
 - (void)didReceiveMemoryWarning

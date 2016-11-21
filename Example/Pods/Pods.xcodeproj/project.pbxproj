@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11B80FAA4750B2C140A259C15807334D /* MposTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4B738525472C66D4B2336323406CF /* MposTest-dummy.m */; };
-		2ED93D708555A19A04E7571F417F5213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		39F9B162278E7953DA589FA7FDB15412 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3F25A71C17B776D45AE0F7AFD9E471 /* ReplaceMe.m */; };
+		56C0CC0845A30E309B818EA1F681B7DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5DEF88BEE5E72D12029CE63FC40D9C10 /* MposTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4B738525472C66D4B2336323406CF /* MposTest-dummy.m */; };
+		6165A4A08F8660CBEE66207A4983207A /* MposTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C34861CF6AE5FE80A40A1F22CAAFB5BE /* MposTest.m */; };
 		6A2E4168BFCBA3E55D2D7034AED948AA /* Pods-MposTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E16E0CFDB63746AF9453A6B93B8D0 /* Pods-MposTest_Tests-dummy.m */; };
 		766032FAEA12B59BFFF3282B0B3DFF4D /* Pods-MposTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 367508CE19312F36C9D502090D65F487 /* Pods-MposTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8528538FED6BDA0C47549FE5BCDDEA92 /* Pods-MposTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C77E03396D901DC5CC9B4D1EB6A4E00 /* Pods-MposTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3266AEA64DA6921A72C5D0D16B5BF85 /* MposTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6258C506F35E91F7CAD39AC7798C6E88 /* MposTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB716BA95EDBD922248EBB3D888FA4B8 /* MposTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 138E93E264818E155629873B1C9501C5 /* MposTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEF556B08D077DD2A4A9EDB4EF4546AF /* MposTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6258C506F35E91F7CAD39AC7798C6E88 /* MposTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8D4F6BB0260B347D8EB8D373BEB7A6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		DF0EE124DF14B0A67B232A8204CED4B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		EBA28E308D578930CBDA16083602758B /* Pods-MposTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C1348942E0F4B87D46EC160E991BFB /* Pods-MposTest_Example-dummy.m */; };
@@ -24,13 +25,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 511C2D843E5FC36A819FA9521799D4DD;
+			remoteGlobalIDString = F32835F5D5B88A367BA9EE55022BE2B8;
 			remoteInfo = MposTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A6F80028274CC54240BC73186DD4382 /* Pods-MposTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MposTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		138E93E264818E155629873B1C9501C5 /* MposTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MposTest.h; sourceTree = "<group>"; };
 		1ACF311D009C0D3BD7B5A5417E1A342F /* Pods-MposTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MposTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1CF304E2854C275085B129F514C1498F /* Pods-MposTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MposTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F241FD2D206B2854A5D243425E4FC74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +44,6 @@
 		39C097A0FA74D260CF785171615165A5 /* Pods-MposTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MposTest_Example-resources.sh"; sourceTree = "<group>"; };
 		4E1A4A28D7380FB19D83BFD04353AC21 /* MposTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MposTest-prefix.pch"; sourceTree = "<group>"; };
 		6258C506F35E91F7CAD39AC7798C6E88 /* MposTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MposTest-umbrella.h"; sourceTree = "<group>"; };
-		6F3F25A71C17B776D45AE0F7AFD9E471 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		75639089593AE245BEF50E386383501F /* MposTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MposTest.xcconfig; sourceTree = "<group>"; };
 		7AF89FD7C32258C1452138C2EF796A8C /* Pods_MposTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MposTest_Tests.framework; path = "Pods-MposTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C77E03396D901DC5CC9B4D1EB6A4E00 /* Pods-MposTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MposTest_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		9AF4B738525472C66D4B2336323406CF /* MposTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MposTest-dummy.m"; sourceTree = "<group>"; };
 		A47C3073BAF422CA79ECD1D95B44F01B /* Pods-MposTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MposTest_Tests.modulemap"; sourceTree = "<group>"; };
 		B4D15D47FC85C8A9D901FE03CBB3F0C1 /* MposTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MposTest.framework; path = MposTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34861CF6AE5FE80A40A1F22CAAFB5BE /* MposTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MposTest.m; sourceTree = "<group>"; };
 		C62D007C779DDC84182C296FA4641622 /* Pods-MposTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MposTest_Example.modulemap"; sourceTree = "<group>"; };
 		CA4E16E0CFDB63746AF9453A6B93B8D0 /* Pods-MposTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MposTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -81,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD4C76F0CB9D01DF53F1574BD4EDE1F3 /* Frameworks */ = {
+		AED774EEEB16568B592CB096ACDCDBC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ED93D708555A19A04E7571F417F5213 /* Foundation.framework in Frameworks */,
+				56C0CC0845A30E309B818EA1F681B7DD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,15 @@
 				6E7AFD473F2A67011B71398E8076889F /* Pods-MposTest_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3226E553946D424AF1D9271E7246C07B /* MposTest */ = {
+			isa = PBXGroup;
+			children = (
+				DDF18A80F77AA88D514E26AABA752875 /* Classes */,
+			);
+			name = MposTest;
+			path = MposTest;
 			sourceTree = "<group>";
 		};
 		34B54398DD35880B5BE928FB3BB6050D /* Pods-MposTest_Example */ = {
@@ -122,7 +133,7 @@
 		46EBBA22FF5D44903D8CC8DD05A7884C /* MposTest */ = {
 			isa = PBXGroup;
 			children = (
-				7CC1DBBBAEA91E59AB405471C981C63F /* MposTest */,
+				3226E553946D424AF1D9271E7246C07B /* MposTest */,
 				D4CFBD6E365498FADDDA10981B81150B /* Support Files */,
 			);
 			name = MposTest;
@@ -163,15 +174,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7CC1DBBBAEA91E59AB405471C981C63F /* MposTest */ = {
-			isa = PBXGroup;
-			children = (
-				D125EA28B17C4858C7376101B8DD5C7B /* Classes */,
-			);
-			name = MposTest;
-			path = MposTest;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -191,15 +193,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D125EA28B17C4858C7376101B8DD5C7B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6F3F25A71C17B776D45AE0F7AFD9E471 /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		D4CFBD6E365498FADDDA10981B81150B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +205,16 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MposTest";
+			sourceTree = "<group>";
+		};
+		DDF18A80F77AA88D514E26AABA752875 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				138E93E264818E155629873B1C9501C5 /* MposTest.h */,
+				C34861CF6AE5FE80A40A1F22CAAFB5BE /* MposTest.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F578FA8DA52CBA2354E2194C33CAB80B /* Products */ = {
@@ -235,6 +238,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A3DDC67CD1DE830EAFF562315E12B13D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF556B08D077DD2A4A9EDB4EF4546AF /* MposTest-umbrella.h in Headers */,
+				BB716BA95EDBD922248EBB3D888FA4B8 /* MposTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD7577F951FC4E9AF254D6C6361AFBE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,34 +255,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2809C9EA50DEA725A26A08D84E0B46C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3266AEA64DA6921A72C5D0D16B5BF85 /* MposTest-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		511C2D843E5FC36A819FA9521799D4DD /* MposTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E66A7F06E7AD77EF4C056FD1B7DD12E0 /* Build configuration list for PBXNativeTarget "MposTest" */;
-			buildPhases = (
-				77AE5972CC8BF007A0A951AFEC2C294C /* Sources */,
-				CD4C76F0CB9D01DF53F1574BD4EDE1F3 /* Frameworks */,
-				C2809C9EA50DEA725A26A08D84E0B46C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MposTest;
-			productName = MposTest;
-			productReference = B4D15D47FC85C8A9D901FE03CBB3F0C1 /* MposTest.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9B9DC2CE0B90F020228DF065E47B67AC /* Pods-MposTest_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E7F7E603BF1453DACFD5107B9D9CF7C /* Build configuration list for PBXNativeTarget "Pods-MposTest_Example" */;
@@ -306,6 +293,23 @@
 			productReference = 7AF89FD7C32258C1452138C2EF796A8C /* Pods_MposTest_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F32835F5D5B88A367BA9EE55022BE2B8 /* MposTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD3B9A6556D49155C8A853193A9BCC3 /* Build configuration list for PBXNativeTarget "MposTest" */;
+			buildPhases = (
+				A2DDB150C6A315FAF7DE98EBA9FD7487 /* Sources */,
+				AED774EEEB16568B592CB096ACDCDBC6 /* Frameworks */,
+				A3DDC67CD1DE830EAFF562315E12B13D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MposTest;
+			productName = MposTest;
+			productReference = B4D15D47FC85C8A9D901FE03CBB3F0C1 /* MposTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,7 +331,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				511C2D843E5FC36A819FA9521799D4DD /* MposTest */,
+				F32835F5D5B88A367BA9EE55022BE2B8 /* MposTest */,
 				9B9DC2CE0B90F020228DF065E47B67AC /* Pods-MposTest_Example */,
 				DCFA100D0C0F74BC626C4EEC74509BB9 /* Pods-MposTest_Tests */,
 			);
@@ -343,20 +347,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77AE5972CC8BF007A0A951AFEC2C294C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11B80FAA4750B2C140A259C15807334D /* MposTest-dummy.m in Sources */,
-				39F9B162278E7953DA589FA7FDB15412 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88085D5436CAC0F203AA5BA8B2EDADBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6A2E4168BFCBA3E55D2D7034AED948AA /* Pods-MposTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DDB150C6A315FAF7DE98EBA9FD7487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF88BEE5E72D12029CE63FC40D9C10 /* MposTest-dummy.m in Sources */,
+				6165A4A08F8660CBEE66207A4983207A /* MposTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +370,7 @@
 		7B43FD53EA740F033A14860ED3282AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MposTest;
-			target = 511C2D843E5FC36A819FA9521799D4DD /* MposTest */;
+			target = F32835F5D5B88A367BA9EE55022BE2B8 /* MposTest */;
 			targetProxy = 44FDE332AFE29F11288E57D24ABDE3B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -477,37 +481,6 @@
 			};
 			name = Debug;
 		};
-		77B2CC2FA063DEAD8F7C52681B67DFC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75639089593AE245BEF50E386383501F /* MposTest.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MposTest/MposTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MposTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MposTest/MposTest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MposTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -548,7 +521,7 @@
 			};
 			name = Release;
 		};
-		9CA8BE740ABF07928037F156FA5135E2 /* Release */ = {
+		9A835302CA1EA632654A56DD387CD2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75639089593AE245BEF50E386383501F /* MposTest.xcconfig */;
 			buildSettings = {
@@ -556,7 +529,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -569,7 +542,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MposTest/MposTest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = MposTest;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -577,7 +550,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -658,6 +631,37 @@
 			};
 			name = Release;
 		};
+		FC74D4FB91D1693E883BBF1DA0D50B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75639089593AE245BEF50E386383501F /* MposTest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MposTest/MposTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MposTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MposTest/MposTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MposTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -679,20 +683,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7CD3B9A6556D49155C8A853193A9BCC3 /* Build configuration list for PBXNativeTarget "MposTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A835302CA1EA632654A56DD387CD2AE /* Debug */,
+				FC74D4FB91D1693E883BBF1DA0D50B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A8B7728A7F1005CBB40FC271E3DC9039 /* Build configuration list for PBXNativeTarget "Pods-MposTest_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E85DC8A6C895B5A3583A2E54CF569C3 /* Debug */,
 				1E984FDE76F9D95CEF536299ACD314FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E66A7F06E7AD77EF4C056FD1B7DD12E0 /* Build configuration list for PBXNativeTarget "MposTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				77B2CC2FA063DEAD8F7C52681B67DFC7 /* Debug */,
-				9CA8BE740ABF07928037F156FA5135E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
