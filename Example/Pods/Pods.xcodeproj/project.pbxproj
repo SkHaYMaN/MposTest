@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		319B01061DE45ACB004B94C3 /* MposTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 319B01051DE45ACB004B94C3 /* MposTest.framework */; };
-		319B01091DE45FF7004B94C3 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 319B01081DE45FF7004B94C3 /* Header.h */; };
+		319B01091DE45FF7004B94C3 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 319B01081DE45FF7004B94C3 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59A71CFFEF5F7FF716CA95ECC5D124EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		68C1FBD52606E1707418189903934418 /* MposTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4B738525472C66D4B2336323406CF /* MposTest-dummy.m */; };
 		6A2E4168BFCBA3E55D2D7034AED948AA /* Pods-MposTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E16E0CFDB63746AF9453A6B93B8D0 /* Pods-MposTest_Tests-dummy.m */; };
