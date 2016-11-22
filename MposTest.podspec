@@ -31,9 +31,9 @@ This CocoaPod provides the ability to use a UILabel that may be started and stop
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MposTest/**/*.{h,framework}'
+#s.source_files = 'MposTest/**/*.{h,framework}'
 #s.vendored_frameworks = 'MposTest.framework'
-  vendored_frameworks = "Classes/MposTest.framework"
+  s.ios.vendored_frameworks = "Classes/MposTest.framework", "MposTest.framework"
 
 
   # s.resource_bundles = {
