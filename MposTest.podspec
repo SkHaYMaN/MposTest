@@ -33,8 +33,9 @@ This CocoaPod provides the ability to use a UILabel that may be started and stop
 
   s.source_files = 'MposTest/**/*.{h,framework}'
 #s.vendored_frameworks = 'MposTest.framework'
+  vendored_frameworks = "Classes/MposTest.framework"
 
-  
+
   # s.resource_bundles = {
   #   'MposTest' => ['MposTest/Assets/*.png']
   # }
