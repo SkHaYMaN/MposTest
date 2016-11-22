@@ -1,6 +1,0 @@
-framework module MposTest {
-  umbrella header "MposTest-umbrella.h"
-
-  export *
-  module * { export * }
-}
